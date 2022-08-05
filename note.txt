@@ -1,0 +1,20 @@
+Aplikasi perpustakaan
+
+- CRUD e book 
+- CRUD administrator
+- CRUD peminjam
+- pengguna dapat meminjam buku
+- peminjaman buku dilakukan beberapa hari dengan biaya yang telah ditentukan
+
+Database : db_library
+
+- tb_user (relasi dengan role)
+- tb_role
+- tb_category
+- tb_book_category (relasi dengan category dan book)
+- tb_book
+- tb_loan (relasi dengan user)
+- tb_details_loan (relasi dengan loan)
+- tb_payment (relasi dengan loan)
+- tb_profil
+
